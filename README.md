@@ -1,4 +1,4 @@
-# ibkr-stop-watchdog
+# stop-watchdog
 
 A small utility that watches your Interactive Brokers positions and puts a
 vanished protective stop back before you notice it's gone.
@@ -65,11 +65,10 @@ What that looks like in the log when it actually fires:
 
 ## Status
 
-Not yet available for purchase — launch is pending final commercial
-licensing confirmation with Interactive Brokers. This repository is
-documentation only; no source code or licensing terms are included here
-yet. Reach out at support@algovigil.com if you'd like to be notified when
-it's available.
+Not yet available for purchase — launch is pending final steps on the
+commercial licensing side. This repository is documentation only; no
+source code or licensing terms are included here yet. Reach out at
+support@algovigil.com if you'd like to be notified when it's available.
 
 ## Support
 
