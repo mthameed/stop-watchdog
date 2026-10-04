@@ -65,10 +65,7 @@ What that looks like in the log when it actually fires:
 
 ## Status
 
-Not yet available for purchase — launch is pending final steps on the
-commercial licensing side. This repository is documentation only; no
-source code or licensing terms are included here yet. Reach out at
-support@algovigil.com if you'd like to be notified when it's available.
+**Available now:** [algovigil.gumroad.com/l/stop-watchdog](https://algovigil.gumroad.com/l/stop-watchdog) — $249, one-time purchase (not a subscription), 7-day refund. This repository is documentation only — the product itself (full source, license, setup instructions) is delivered as part of the purchase. Questions before buying: support@algovigil.com.
 
 ## Support
 
