@@ -65,7 +65,7 @@ What that looks like in the log when it actually fires:
 
 ## Status
 
-**Available now:** [algovigil.gumroad.com/l/stop-watchdog](https://algovigil.gumroad.com/l/stop-watchdog) — $249, one-time purchase (not a subscription), 7-day refund. This repository is documentation only — the product itself (full source, license, setup instructions) is delivered as part of the purchase. Questions before buying: support@algovigil.com.
+**Available now:** [algovigil.gumroad.com/l/stop-watchdog](https://gum.co/u/d0eowpns) — $249, one-time purchase (not a subscription), 7-day refund. This repository is documentation only — the product itself (full source, license, setup instructions) is delivered as part of the purchase. Questions before buying: support@algovigil.com.
 
 ## Support
 
