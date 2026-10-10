@@ -1,4 +1,4 @@
-"""Unit tests for Stop Watchdog Free's specific restrictions: the hard
+"""Unit tests for Stop Watchdog (Free)'s specific restrictions: the hard
 single-position cap, the hard paper-account-only enforcement, and
 confirming the "no re-arm capability" guarantee is architectural, not just
 behavioral. No real IBKR connection involved -- a FakeBroker stands in."""
