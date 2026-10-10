@@ -1,0 +1,30 @@
+[project]
+name = "stop-watchdog-free"
+version = "1.0.0"
+description = "Watches one IBKR paper-trading position and tells you when its protective stop has vanished. Free tier of Stop Watchdog -- see Stop Watchdog Pro for auto re-arm and multi-position/live-account support."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE.md"]
+authors = [{ name = "Muhammad Tahir Hameed" }]
+keywords = ["interactive-brokers", "ibkr", "trading", "risk-management", "stop-loss", "ibapi"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+# Same dependency choice and reasoning as Stop Watchdog Pro: IBKR's own
+# native TWS API client, recommended directly by IBKR support over the
+# now-unmaintained ib_insync. Install IBKR's own current build from
+# interactivebrokers.github.io for anything beyond quick evaluation --
+# the PyPI package is a community mirror that can lag behind.
+dependencies = ["ibapi>=9.81.1"]
+
+[project.scripts]
+stop-watchdog-free = "stop_watchdog.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

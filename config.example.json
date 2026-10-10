@@ -1,0 +1,7 @@
+{
+  "host": "127.0.0.1",
+  "port": 7497,
+  "client_id": 99,
+  "poll_interval_sec": 30,
+  "state_file": "stop_watchdog_state.json"
+}
