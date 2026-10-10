@@ -1,4 +1,4 @@
-# Stop Watchdog Free
+# Stop Watchdog (Free)
 
 Watches one Interactive Brokers paper-trading position and tells you the
 moment its protective stop order has silently vanished.
@@ -47,7 +47,7 @@ This isn't a feature flag — the free build's `Broker` class has no
 order-placement code in it at all. There's nothing to unlock by editing a
 config file; the capability genuinely isn't present in this package.
 
-**[Stop Watchdog Pro →](https://algovigil.gumroad.com/l/stop-watchdog)** —
+**[Stop Watchdog (Pro) →](https://algovigil.gumroad.com/l/stop-watchdog)** —
 one-time purchase, not a subscription.
 
 ## Requirements
