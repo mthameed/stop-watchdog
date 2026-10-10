@@ -3,7 +3,7 @@ protective stop orders) and what was last known to be true (state store),
 decide which symbols need a stop re-armed and which are safe to stop
 tracking.
 
-Identical to the decision logic in the paid Stop Watchdog Pro -- this part
+Identical to the decision logic in the paid Stop Watchdog (Pro) -- this part
 isn't the commercial value, the automated execution is. No IBKR I/O here
 on purpose: a plain function, unit testable with made-up data, no broker
 connection required."""

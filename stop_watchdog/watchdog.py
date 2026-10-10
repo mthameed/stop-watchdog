@@ -18,7 +18,7 @@ from .logic import decide
 
 log = logging.getLogger("stop_watchdog")
 
-PRO_INFO = "Stop Watchdog Pro re-arms this automatically and watches your whole portfolio: https://algovigil.gumroad.com/l/stop-watchdog"
+PRO_INFO = "Stop Watchdog (Pro) re-arms this automatically and watches your whole portfolio: https://algovigil.gumroad.com/l/stop-watchdog"
 
 
 @dataclass
@@ -48,7 +48,7 @@ class Watchdog:
             # account.
             self.broker.disconnect()
             raise RuntimeError(
-                "Stop Watchdog Free only runs against IBKR paper trading accounts "
+                "Stop Watchdog (Free) only runs against IBKR paper trading accounts "
                 f"(account must start with 'DU'). {PRO_INFO}")
 
     def run_forever(self) -> None:

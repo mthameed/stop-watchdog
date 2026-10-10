@@ -1,4 +1,4 @@
-"""Command-line entry point for Stop Watchdog Free."""
+"""Command-line entry point for Stop Watchdog (Free)."""
 from __future__ import annotations
 import argparse
 import json
@@ -22,9 +22,9 @@ def load_config(path: Path) -> WatchdogConfig:
 def main() -> None:
     parser = argparse.ArgumentParser(
         prog="stop-watchdog",
-        description="Stop Watchdog Free -- watches one IBKR paper-trading position and tells you "
+        description="Stop Watchdog (Free) -- watches one IBKR paper-trading position and tells you "
                     "when its protective stop has vanished. Does not re-arm it for you; "
-                    "see Stop Watchdog Pro for that.")
+                    "see Stop Watchdog (Pro) for that.")
     parser.add_argument("--config", type=Path, default=Path("config.json"),
                          help="Path to a JSON config file (see config.example.json).")
     parser.add_argument("--log-file", type=Path, default=None)
