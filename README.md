@@ -50,6 +50,14 @@ config file; the capability genuinely isn't present in this package.
 **[Stop Watchdog (Pro) →](https://algovigil.gumroad.com/l/stop-watchdog)** —
 one-time purchase, not a subscription.
 
+## Quick Start
+
+\`\`\`bash
+pip install -e .
+cp config.example.json config.json   # edit with your IBKR connection details
+stop-watchdog-free --config config.json
+\`\`\`
+
 ## Requirements
 
 - Python 3.10+
